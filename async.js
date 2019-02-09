@@ -14,7 +14,7 @@ $(document).ready(function () {
     var durationImage = 10000;
     // basic source for image and video tag
     var srcImage = '<img src="$" alt="">';
-    var srcVideo = '<video muted autoplay loop ><source src="$" type="video/mp4"></source></video>';
+    var srcVideo = '<video muted autoplay><source src="$" type="video/mp4"></source></video>';
     // current position
     var current = -1;
     // regex for getting file extension (from http://stackoverflow.com/questions/680929/how-to-extract-extension-from-filename-string-in-javascript)</script>

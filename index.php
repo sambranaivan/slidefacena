@@ -32,7 +32,7 @@
     <div class="w">
         
             <h1>Estado del Puente</h1>
-            <div class="label" id="estadodelpuente"></div>
+            <h3 class="label" id="estadodelpuente"></h3>
 
     </div>
     <div class="w">
