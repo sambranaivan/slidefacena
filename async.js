@@ -63,7 +63,7 @@ $(document).ready(function () {
     // // // // // // // // // // // // // // // // // // // 
     // show first (remember current = -1 from above :) )
     playNext();
-
+// teste change
     update();
 
 
