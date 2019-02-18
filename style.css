@@ -20,9 +20,9 @@ div{
 
 
 #left{
-  width: 70vw;
+  width: 80vw;
   
-  height: 70vh;
+  height: 80vh;
   float: left;
   vertical-align: middle;
   text-align: center;
@@ -41,9 +41,9 @@ div{
 }
 
 #right{
-  width: 30vw;
+  width: 20vw;
   /* background-color: #ffbbff; */
-  height: 70vh;
+  height: 80vh;
   float: left;
   overflow: hidden;
 }
@@ -51,21 +51,24 @@ div{
 #abajo{
   width: 100vw;
   /* background-color: #d1a4ff; */
-  height: 30vh;
+  height: 20vh;
   float: left;
 }
 
 .w{
-  width: 95%;
-  margin: 2%;
+  width: 85%;
+  height: 50%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
   float: left;
    border-radius: 10px;
    background-color: rgba(255, 255,255, 0.7);
     padding: 5px;;
       justify-content: space-between;
   text-align: center;
-  border: 2px solid #b5ff7d;;
-  
+  border: 2px solid #b5ff7d;
+  vertical-align: middle;
   /* height: 80vh; */
 
 }
@@ -101,12 +104,20 @@ div{
 }
 
 #abajo .alerta .h0{
-  font-size: 48px;
+  font-size: 60px;
   color: darkred;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
   /* background-color: rgba(255, 115, 0, 0.753); */
+}
+
+.alerta h1{
+  font-size: 52px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
 }
 
 
@@ -124,14 +135,14 @@ div{
 }
 
 div.canvas > video {
-  width: 100%;
+  width: 80vw;
   /* height: 100%; */
     display:           block;
     margin:            auto;
 }
 
 div.canvas > img {
-  width: 70vw;
+  width: 80vw;
     display:           block;
     margin:            auto;
 }
