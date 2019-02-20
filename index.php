@@ -31,8 +31,8 @@
 
     <div class="w" style=" display: table;">
             <div style=" display: table-cell; vertical-align: middle;">
-                <h1 >Estado del Puente</h1>
-                <h3 id="estadodelpuente"></h3>
+                <img src="puente.png"  alt="">
+                <h2 id="estadodelpuente"></h2>
             </div>
 
     </div>
