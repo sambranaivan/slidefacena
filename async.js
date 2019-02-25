@@ -7,7 +7,7 @@ $(document).ready(function () {
     // // // // // // // // // // // // // // // // // // // 
     // array containing links to the content
     
-    var content = ['slides/download.png',];
+    var content = ['slides/default.png',];
     // element where anything will be played
     var canvas = $('#canvas');
     // duration an image is shown in ms (milliseconds)
