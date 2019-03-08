@@ -75,12 +75,18 @@ $(document).ready(function () {
 
 function update() {
     console.log('update')
+
+
+
     $.get('api.php', { test: null }, function (data) {
         content = data.filelist;
         $("#estadodelpuente").html(data.puente);
         liston = data.liston.split("*");
         $("#liston").html(liston[0]);
         $("#listonMensaje").html(liston[1]);
+
+
+        
     })}
 
 
