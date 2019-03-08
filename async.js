@@ -64,11 +64,13 @@ $(document).ready(function () {
     // show first (remember current = -1 from above :) )
     playNext();
 // teste change
+update_files();
     update();
 
 
     setInterval(function(){
         update();
+        update_files();
     }
     ,60000)
 
@@ -79,15 +81,32 @@ function update() {
 
 
     $.get('api.php', { test: null }, function (data) {
+
         content = data.filelist;
         $("#estadodelpuente").html(data.puente);
         liston = data.liston.split("*");
         $("#liston").html(liston[0]);
         $("#listonMensaje").html(liston[1]);
+    }
+    
+    
+    
+    )}
+
+    function update_files() {
+        console.log('update_files')
 
 
-        
-    })}
+
+        $.get('files.php', { test: null }, function (data) {
+
+            content = data.filelist;
+        }
+
+
+
+        )
+    }
 
 
     
