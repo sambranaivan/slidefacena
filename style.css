@@ -64,7 +64,7 @@ div{
 
 .w{
   width: 85%;
-  height: 50%;
+  height: 100%;
   margin-left: 5%;
   margin-bottom: 2%;
   margin-top: 2%;
@@ -99,7 +99,7 @@ div{
 
 #abajo .alerta{
   font-family: Verdana;
-  padding: 10px;
+  /*padding: 10px;*/
   margin: 10px; 
   width: 98%;
   height: 90%;
@@ -112,7 +112,7 @@ div{
 }
 
 #abajo .alerta .h0{
-  font-size: 60px;
+  font-size: 45px;
   color: darkred;
   font-weight: bold;
   text-align: center;
@@ -120,13 +120,13 @@ div{
   /* background-color: rgba(255, 115, 0, 0.753); */
 }
 
-.alerta h1{
-  font-size: 52px;
+/*.alerta h1{
+  font-size: 45px;
   color: white;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
-}
+}*/
 
 
 /* video */
